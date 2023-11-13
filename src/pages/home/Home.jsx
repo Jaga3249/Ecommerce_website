@@ -4,6 +4,7 @@ import { mycontext } from "../../context/data/MyContext";
 import HeroSection from "../../components/hero-section/HeroSection";
 import Filter from "../../components/filter/Filter";
 import ProductCard from "../../components/productcard/ProductCard";
+import Track from "../../components/track/Track";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroSection />
       <Filter />
       <ProductCard />
+      <Track />
     </Layout>
   );
 };
