@@ -5,6 +5,7 @@ import HeroSection from "../../components/hero-section/HeroSection";
 import Filter from "../../components/filter/Filter";
 import ProductCard from "../../components/productcard/ProductCard";
 import Track from "../../components/track/Track";
+import TestMonial from "../../components/testmonials/TestMonial";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Filter />
       <ProductCard />
       <Track />
+      <TestMonial />
     </Layout>
   );
 };

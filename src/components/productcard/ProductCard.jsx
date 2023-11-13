@@ -19,7 +19,7 @@ const ProductCard = () => {
               <h2>E-Bharat</h2>
               <h1 className="font-bold">This is the title</h1>
               <p>₹500</p>
-              <div className="  p-2 my-2 bg-pink-600 hover:bg-pink-700   rounded-lg  flex justify-center items-center focus:outline-none">
+              <div className="  p-2 my-2 bg-pink-600 hover:bg-pink-700   rounded-lg  flex justify-center items-center focus:outline-none ">
                 <button>Add To Cart</button>
               </div>
             </div>
