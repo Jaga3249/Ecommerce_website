@@ -4,9 +4,9 @@ import Footer from "../footer/Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <NavBar />
-      <div className="overflow-x-hidden">{children}</div>
+      <div className="">{children}</div>
       <Footer />
     </div>
   );
