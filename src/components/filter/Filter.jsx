@@ -12,9 +12,9 @@ const Filter = () => {
           leftSection={<IconSearch />}
           placeholder="Search here..."
         />
-        <div className="flex justify-between items-center">
-          <p>Filters</p>
-          <p>Reset Filters</p>
+        <div className="flex justify-between items-center cursor-pointer">
+          <p className="font-bold">Filters</p>
+          <p className="font-bold">Reset Filters</p>
         </div>
         <div className="flex gap-2">
           <Select

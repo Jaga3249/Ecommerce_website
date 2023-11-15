@@ -6,50 +6,43 @@ import { IconBrandLinkedin } from "@tabler/icons-react";
 
 const Footer = () => {
   return (
-    <div className="w-screen h-[40vh] bg-gray-400  ">
-      <div className="max-w-5xl mx-auto w-full h-full flex justify-between">
-        <div className="flex justify-start items-start flex-col gap-2 my-auto">
-          <h2 className="font-semibold uppercase">Categories</h2>
-          <div className="flex flex-col text-gray-600 ">
-            <span>Home</span>
-            <span>Order</span>
-            <span>Local or Vocal</span>
-            <span>Cart</span>
-          </div>
+    <div className="bg-gray-300 w-screen">
+      <div className="max-w-5xl mx-auto w-full flex justify-between py-20">
+        <div className="flex flex-col">
+          <h2 className="my-1 uppercase font-bold">Categories</h2>
+          <span className="text-gray-500">Home</span>
+          <span className="text-gray-500">Order</span>
+          <span className="text-gray-500">Local or Vocal</span>
+          <span className="text-gray-500"> Cart</span>
         </div>
-        <div className="flex justify-start items-start flex-col gap-2 mt-[60px]">
-          <h2 className="font-semibold uppercase">Customer Service</h2>
-          <div className="flex flex-col text-gray-600 ">
-            <span>Return Policy</span>
-            <span>About</span>
-            <span>Contact Us</span>
-          </div>
+        <div className="flex flex-col">
+          <h2 className="my-1 font-bold uppercase">customer services</h2>
+          <span className="text-gray-500">Return Policy</span>
+          <span className="text-gray-500">About</span>
+          <span className="text-gray-500">Contact Us</span>
         </div>
-        <div className="flex justify-start items-start flex-col gap-2 mt-16">
-          <h2 className="font-semibold uppercase">Services</h2>
-
-          <span className="text-gray-600">Privecy</span>
+        <div className="flex flex-col">
+          <h2 className="my-1 font-bold uppercase">services</h2>
+          <span className="text-gray-500">Privecy</span>
         </div>
-
-        <div className="lg:w-1/4 md:w-1/2 w-full mt-16 ">
-          <img
-            src="https://ecommerce-sk.vercel.app/pay.png"
-            alt=""
-            className="w-full"
-          />
+        <div className="w-1/4">
+          <img src="https://ecommerce-sk.vercel.app/pay.png" alt="" />
         </div>
       </div>
-      <div className=" w-full h-[10vh] ">
-        <div className="max-w-5xl mx-auto  flex justify-between w-full h-[10vh]">
-          <div className="flex justify-center items-center">
-            <h1>E-Bharat</h1>
-            <p>© 2023 E-bharat —www.ebharat.com</p>
+      <div className="bg-gray-50 w-screen">
+        <div className="max-w-5xl mx-auto w-full  flex justify-between py-4">
+          <div className="flex items-center gap-3 ">
+            <h2 className="font-bold text-2xl">E-Bharat</h2>
+            <p className="text-gray-500">
+              © 2023 E-bharat —
+              <a href="https://twitter.com/knyttneve">www.ebharat.com</a>
+            </p>
           </div>
-          <div className="flex justify-center items-center gap-3">
-            <IconBrandFacebookFilled className=" text-gray-500" />
-            <IconBrandTwitterFilled className=" text-gray-500" />
-            <IconBrandInstagram className=" text-gray-500" />
-            <IconBrandLinkedin className=" text-gray-500" />
+          <div className="flex justify-center items-center gap-2 cursor-pointer">
+            <IconBrandFacebookFilled className="text-gray-400" />
+            <IconBrandTwitterFilled className="text-gray-400" />
+            <IconBrandInstagram className="text-gray-400" />
+            <IconBrandLinkedin className="text-gray-400" />
           </div>
         </div>
       </div>

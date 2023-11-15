@@ -5,6 +5,8 @@ import Order from "./pages/order/Order";
 import Cart from "./pages/cart/Cart";
 import DashBoard from "./pages/admin/dashboard/DashBoard";
 import NoPage from "./pages/nopage/NoPage";
+import Login from "./pages/registration/Login";
+import SignUp from "./pages/registration/SignUp";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <Route path="/order" element={<Order />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/dashboard" element={<DashBoard />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<SignUp />} />
       <Route path="/*" element={<NoPage />} />
     </Routes>
   );

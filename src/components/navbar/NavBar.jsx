@@ -79,7 +79,7 @@ const NavBar = () => {
               </span>
               <span>
                 <LuShoppingCart className="cursor-pointer text-2xl relative" />
-                <div className="absolute bg-gray-200 w-3 px-3 flex justify-center items-center rounded-full lg:top-11 lg:right-28 top-[38px] right-2 ">
+                <div className="absolute bg-gray-200 w-3 px-3 flex justify-center items-center rounded-full lg:top-11 lg:right-24 top-[38px] right-2 ">
                   1
                 </div>
               </span>
