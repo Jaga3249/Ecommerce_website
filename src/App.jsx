@@ -7,6 +7,7 @@ import DashBoard from "./pages/admin/dashboard/DashBoard";
 import NoPage from "./pages/nopage/NoPage";
 import Login from "./pages/registration/Login";
 import SignUp from "./pages/registration/SignUp";
+import ProductInfo from "./pages/productInfo/ProductInfo";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Route path="/dashboard" element={<DashBoard />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<SignUp />} />
+      <Route path="/productinfo/:id" element={<ProductInfo />} />
       <Route path="/*" element={<NoPage />} />
     </Routes>
   );
